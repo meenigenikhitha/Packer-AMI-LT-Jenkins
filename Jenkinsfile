@@ -2,7 +2,7 @@ pipeline {
     agent any
 // veera
     environment {
-       AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
+       AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY')
        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
        AWS_REGION = 'us-east-1'
        LAUNCH_TEMPLATE_ID = 'lt-0c1ce07052e34fc61'
